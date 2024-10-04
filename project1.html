@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anton Edman</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+  </head>
+  <body>
+    <header
+      class="container-xxl d-flex flex-column justify-content-between align-items-between p-3"
+    >
+      <div class="d-sm-flex justify-content-sm-end">
+        <div class="d-flex justify-content-between gap-2">
+          <button id="theme-toggle" class="theme-icon bg-transparent p-0">
+            <img
+              class="img-fluid img-hover"
+              id="theme-icon"
+              src="assets/moon.svg"
+              alt="Theme Icon"
+            />
+          </button>
+          <div class="d-flex align-items-center gap-2">
+            <span
+              data-language-switch-button
+              data-locale="en"
+              role="button"
+              class=""
+              >English</span
+            >
+            <span>/</span>
+            <span
+              data-language-switch-button
+              data-locale="sv"
+              role="button"
+              class=""
+              >Svenska</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between align-items-end pt-2">
+        <a href="/">
+          <h1 class="text-nowrap m-0 text-decoration-underline">Anton Edman</h1>
+        </a>
+        <a href="/about.html">
+          <h2 class="text-nowrap m-0" data-i18n-key="index.contact">
+            About / Contact
+          </h2>
+        </a>
+      </div>
+    </header>
+    <main class="container py-2 py-sm-5">
+      <h1 class="visually-hidden" data-i18n-key="contact">
+        Frontwalker / STUNS Lifescience
+      </h1>
+      <div class="row">
+        <h3 data-i18n-key="project1.title" class="text-center pb-3"></h3>
+        <a href="/assets/Frontwalker/frontwalker-im-before.pdf" target="_blank"
+          ><h4
+            data-i18n-key="project1.before"
+            class="text-center text-decoration-underline pt-3"
+          ></h4
+        ></a>
+        <a
+          href="https://www.figma.com/proto/CpeiP6YOjxoKoF4N3mwdGx/Insight-Machine?page-id=1428%3A19750&node-id=1455-22704&node-type=canvas&viewport=480%2C111%2C0.07&t=TLIqylPy1Sk98iNX-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1455%3A22704&show-proto-sidebar=1"
+          target="_blank"
+          ><h4
+            data-i18n-key="project1.solution"
+            class="text-center text-decoration-underline p-3"
+          ></h4
+        ></a>
+
+        <div class="d-flex justify-content-center">
+          <div class="col-12 col-md-8">
+            <b><p data-i18n-key="project1.roletitle" class="m-0"></p></b>
+            <p data-i18n-key="project1.roletext"></p>
+            <b><p data-i18n-key="project1.teamtitle" class="m-0"></p></b>
+            <p data-i18n-key="project1.teamtext"></p>
+            <b><p data-i18n-key="project1.timetile" class="m-0"></p></b>
+            <p data-i18n-key="project1.timetext"></p>
+            <b><p data-i18n-key="project1.introtitle" class="m-0"></p></b>
+            <p data-i18n-key="project1.introtext1"></p>
+            <p data-i18n-key="project1.introtext2"></p>
+            <p data-i18n-key="project1.introtext3"></p>
+            <b><p data-i18n-key="project1.problemtitle" class="m-0"></p></b>
+            <p data-i18n-key="project1.problemtext1"></p>
+            <p data-i18n-key="project1.problemtext2"></p>
+            <b><p data-i18n-key="project1.goaltitle" class="m-0"></p></b>
+            <p data-i18n-key="project1.goaltext1"></p>
+            <p data-i18n-key="project1.goaltext2"></p>
+            <p data-i18n-key="project1.goaltext3"></p>
+          </div>
+        </div>
+
+        <div>
+          <ul class="list-unstyled">
+            <li class="pb-5">
+              <div class="d-flex justify-content-center">
+                <div class="col-12 col-md-8 pb-3">
+                  <img
+                    src="/assets/Frontwalker/frontwalker-double-diamond.png"
+                    alt="double-diamond"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="d-flex justify-content-center">
+                  <div class="col-12 col-md-8">
+                    <h4 data-i18n-key="project1.approachtitle1"></h4>
+                    <p data-i18n-key="project1.approachtext1"></p>
+                    <b><p data-i18n-key="project1.approachtitle2"></p></b>
+                    <p data-i18n-key="project1.approachtext2" class="m-0"></p>
+                    <ul>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli11"
+                          class="m-0"
+                        ></p>
+                      </li>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli12"
+                          class="m-0"
+                        ></p>
+                      </li>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli13"
+                          class="m-0"
+                        ></p>
+                      </li>
+                    </ul>
+                    <p
+                      data-i18n-key="project1.approachtext3"
+                      class="m-0 pt-1"
+                    ></p>
+                    <ul>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli21"
+                          class="m-0"
+                        ></p>
+                      </li>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli22"
+                          class="m-0"
+                        ></p>
+                      </li>
+                    </ul>
+                    <p
+                      data-i18n-key="project1.approachtext4"
+                      class="m-0 pt-1"
+                    ></p>
+                    <ul>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli31"
+                          class="m-0"
+                        ></p>
+                      </li>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli32"
+                          class="m-0"
+                        ></p>
+                      </li>
+                    </ul>
+                    <p
+                      data-i18n-key="project1.approachtext5"
+                      class="m-0 pt-1"
+                    ></p>
+                    <ul>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli41"
+                          class="m-0"
+                        ></p>
+                      </li>
+                    </ul>
+                    <b
+                      ><p
+                        data-i18n-key="project1.approachtext6"
+                        class="pt-3"
+                      ></p
+                    ></b>
+                    <ul>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli51"
+                          class="m-0"
+                        ></p>
+                      </li>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli52"
+                          class="m-0"
+                        ></p>
+                      </li>
+                    </ul>
+                    <b
+                      ><p
+                        data-i18n-key="project1.approachtext7"
+                        class="pt-3"
+                      ></p
+                    ></b>
+                    <ul>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli61"
+                          class="m-0"
+                        ></p>
+                      </li>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli62"
+                          class="m-0"
+                        ></p>
+                      </li>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli63"
+                          class="m-0"
+                        ></p>
+                      </li>
+                      <li>
+                        <p
+                          data-i18n-key="project1.approachtli64"
+                          class="m-0"
+                        ></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="pb-5">
+              <div class="d-flex justify-content-center">
+                <div class="col-12 col-md-8 pb-3">
+                  <img
+                    src="/assets/Frontwalker/frontwalker-user-story.png"
+                    alt="double-diamond"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <h4 data-i18n-key="project1.researchtitle"></h4>
+                <div class="col-12 col-md-6">
+                  <p data-i18n-key="project1.researchtext1"></p>
+                  <p data-i18n-key="project1.researchtext2"></p>
+                  <p data-i18n-key="project1.researchtext3"></p>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p data-i18n-key="project1.researchtext4" class="m-0"></p>
+                  <ul>
+                    <li>
+                      <p data-i18n-key="project1.researcli11" class="m-0"></p>
+                    </li>
+                    <li>
+                      <p data-i18n-key="project1.researcli12" class="m-0"></p>
+                    </li>
+                    <li>
+                      <p data-i18n-key="project1.researcli13" class="m-0"></p>
+                    </li>
+                  </ul>
+                  <p
+                    data-i18n-key="project1.researchtext5"
+                    class="m-0 pt-3"
+                  ></p>
+                  <ul>
+                    <li>
+                      <p data-i18n-key="project1.researcli21" class="m-0"></p>
+                    </li>
+                  </ul>
+                  <p data-i18n-key="project1.researchtext6" class="pt-3"></p>
+                </div>
+              </div>
+            </li>
+            <li class="pb-5">
+              <div class="row d-flex justify-content-center">
+                <div class="col-12 col-md-8">
+                  <h4 data-i18n-key="project1.definetitle"></h4>
+                  <p data-i18n-key="project1.definetext1"></p>
+                  <p data-i18n-key="project1.definetext2" class="m-0"></p>
+                  <ul>
+                    <li>
+                      <p data-i18n-key="project1.defineli11" class="m-0"></p>
+                    </li>
+                    <li>
+                      <p
+                        data-i18n-key="project1.defineli12"
+                        class="m-0 pb-3"
+                      ></p>
+                    </li>
+                  </ul>
+                  <p data-i18n-key="project1.definetext3"></p>
+                  <p data-i18n-key="project1.definetext4"></p>
+                  <p data-i18n-key="project1.definetext5"></p>
+                </div>
+              </div>
+            </li>
+            <li class="pb-5">
+              <div class="d-flex justify-content-center">
+                <div class="col-12 col-md-8 pb-3">
+                  <img
+                    src="/assets/Frontwalker/Frontwalker-improvments2.png"
+                    alt="double-diamond"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <h4 data-i18n-key="project1.solutiontitle"></h4>
+                <div class="col-12 col-md-6">
+                  <p data-i18n-key="project1.solutiontext1"></p>
+                  <p data-i18n-key="project1.solutiontext2"></p>
+                  <p data-i18n-key="project1.solutiontext3"></p>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p data-i18n-key="project1.solutiontext4"></p>
+                  <p data-i18n-key="project1.solutiontext5" class="m-0"></p>
+                  <ul>
+                    <li>
+                      <p
+                        data-i18n-key="project1.solutionli11"
+                        class="m-0 pb-3"
+                      ></p>
+                    </li>
+                  </ul>
+                  <p data-i18n-key="project1.solutiontext6" class="m-0"></p>
+                  <ul>
+                    <li>
+                      <p data-i18n-key="project1.solutionli21" class="m-0"></p>
+                    </li>
+                    <li>
+                      <p data-i18n-key="project1.solutionli22" class="m-0"></p>
+                    </li>
+                    <li>
+                      <p
+                        data-i18n-key="project1.solutionli23"
+                        class="m-0 pb-3"
+                      ></p>
+                    </li>
+                  </ul>
+                  <p data-i18n-key="project1.solutiontext7" class="m-0"></p>
+                  <ul>
+                    <li>
+                      <p data-i18n-key="project1.solutionli31" class="m-0"></p>
+                    </li>
+                    <li>
+                      <p
+                        data-i18n-key="project1.solutionli32"
+                        class="m-0 pb-3"
+                      ></p>
+                    </li>
+                  </ul>
+                  <p data-i18n-key="project1.solutiontext8"></p>
+                </div>
+              </div>
+            </li>
+            <li class="pb-5">
+              <div class="d-flex justify-content-center">
+                <div class="col-12 col-md-8 pb-3">
+                  <img
+                    src="/assets/Frontwalker/frontwalker-value-of-ux.png"
+                    alt="double-diamond"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <h4 data-i18n-key="project1.presentationtitle"></h4>
+                <div class="col-12 col-md-6">
+                  <p data-i18n-key="project1.presentationtext1"></p>
+                  <p data-i18n-key="project1.presentationtext2" class="m-0"></p>
+                  <ul>
+                    <li>
+                      <p
+                        data-i18n-key="project1.presentationli11"
+                        class="m-0"
+                      ></p>
+                    </li>
+                    <li>
+                      <p
+                        data-i18n-key="project1.presentationli12"
+                        class="m-0"
+                      ></p>
+                    </li>
+                    <li>
+                      <p
+                        data-i18n-key="project1.presentationli13"
+                        class="m-0"
+                      ></p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p data-i18n-key="project1.presentationtext3" class="m-0"></p>
+                  <ul>
+                    <li>
+                      <p
+                        data-i18n-key="project1.presentationli21"
+                        class="m-0"
+                      ></p>
+                    </li>
+                    <li>
+                      <p
+                        data-i18n-key="project1.presentationli22"
+                        class="m-0"
+                      ></p>
+                    </li>
+                    <li>
+                      <p
+                        data-i18n-key="project1.presentationli23"
+                        class="m-0"
+                      ></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="pb-5">
+              <div class="row d-flex justify-content-center">
+                <div class="col-12 col-md-8">
+                  <h4 data-i18n-key="project1.reflectionstitle"></h4>
+                  <p data-i18n-key="project1.reflectionstext1"></p>
+                  <p data-i18n-key="project1.reflectionstext2"></p>
+                  <p data-i18n-key="project1.reflectionstext3"></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <hr />
+      <div class="px-5 pb-5 pt-2">
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3 gap-sm-5"
+        >
+          <a href="https://www.linkedin.com/in/anton-edman/"
+            ><h4>LinkedIn</h4></a
+          >
+          <a href="mailto:ajoedman@gmail.com"
+            ><h4 class="text-nowrap">ajoedman@gmail.com</h4></a
+          >
+          <h4 class="text-nowrap">+46(0) 73 66 36 031</h4>
+        </div>
+        <p class="d-flex justify-content-center p-5">antonedman.se</p>
+      </div>
+    </footer>
+  </body>
+</html>
